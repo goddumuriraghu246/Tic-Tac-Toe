@@ -70,7 +70,7 @@ const TicTacToe = () => {
         else if(data[2]===data[4] && data[4]===data[6] && data[6]!==""){
             won(data[6]);
         }
-        else if(count==9){
+        else if(count===9){
             titleRef.current.innerHTML="Match Draw";
         }
 
